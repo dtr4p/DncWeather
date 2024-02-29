@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+    background-color: #F2F2F2;
+}
+#mainMenu{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    color: white;
+    height: 80px;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #0C70F2;
+
+}
+#menuList li{
+    background-color: #0C70F2;
+}
+#menuList{
+    display: flex;
+    list-style: none;   
+    align-items: center;
+    font-weight: 600;
+    background: #0C70F2;
+}
+#firstElement{
+    padding-right: 20px;
+    padding-left: 50%;
+}
+#logo{
+    font-size: 35px;
+    background: #0C70F2;  
+}
+#textSection p{
+    color: #1f1f1f;
+    font-weight: 700;
+    font-size: 35px;
+    padding-left: 140px;
+    width: 600px;
+    padding-right: 230px;
+}
+#textSection{
+    display: flex;
+    padding-top: 40px;
+    background-color: #F2F2F2;
+}
+#textSection img{
+    width: 200px;
+}
+#forms{
+    width: 800px;
+    background-color: #ffffff;
+    margin-left: 240px;
+    border-radius: 20px;
+    margin-top: 140px;
+    padding-bottom: 100px;
+}
+#forms div{
+    padding-top: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+#forms label{
+    background-color: #ffffff;
+    font-weight: 600;
+    margin-top: 300px;
+    font-size: 18px;
+}
+.latLong{
+    width: 270px;
+}
+#forms input{
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 20px;
+}
+#forms form{
+    background-color: #ffffff;
+}
+.input{
+    margin-left: 80px;
+    width: 580px;
+}
+#forms label{
+    margin-left: 80px;
+    border-radius: 5px;
+    height: 35px;
+}
+#long{
+    margin-left: 20px;
+}
+#lat{
+    margin-left: 80px;
+}
+#submitButton{
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0 6px 4px #0C70F240;
+    background-color: #0C70F2;
+    color: #ffffff;
+    height: 40px;
+    width: 605px;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#submitButton:hover{
+    cursor: pointer;
+    translate: 0px 6px;
+    background-color: #084697;
+    transition-duration: 0.5s;
+}
+#cepTitle{
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+}
+#cepTitle h1{
+    color: #1f1f1f;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+#cepHeader{
+    color: #ffffff;
+    background-color: #0C70F2;
+    width: 900px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 180px;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+#cepHeader h3{
+    background-color: #0C70F2;
+    padding-left: 50px;
+}
+#cepInfos{
+    color: #1f1f1f;
+    background-color: #ffffff;
+    width: 900px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 180px;
+    height: 50px;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+#cepInfos h3{
+    background-color: #ffffff;
+    padding-left: 40px;
+    font-size: 15px;
+}
+#weatherInfos{
+    padding-top: 50px;
+    padding-left: 180px;
+}
+#weatherInfos input{
+    width: 900px;
+    border-width: 1px;
+    border-color: #0C70F2;
+    border-radius: 15px;
+    height: 40px;
+    color: #1f1f1f;
+    text-align: center;
+    font-weight: 700;
+    outline: none;
+}
+#footer section{
+    background-color: #0C70F2;
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    padding-left: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footer p{
+    background-color: #0C70F2;
+    color: #ffffff;
+}
+#footerText{
+    padding-left: 5px;
+    border-left: 1px solid #ffffff;
+    margin-left: 5px;
+}
